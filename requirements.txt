@@ -1,9 +1,9 @@
 --extra-index-url https://pytorch.org
-torch>=2.4.0
-numpy>=1.26.0
-transformers>=4.44.0
-peft>=0.12.0
-bitsandbytes>=0.43.0
-accelerate>=0.33.0
-datasets>=2.21.0
-trl>=0.9.6
+torch>=2.6.0+cu124
+numpy>=2.2.6
+transformers>=5.9.0
+peft>=0.19.1
+bitsandbytes>=0.49.2
+accelerate>=1.13.0
+datasets>=4.8.5
+trl>=1.5.1
