@@ -58,7 +58,7 @@ pip install transformers peft bitsandbytes accelerate datasets trl numpy
 ### 3. Initialize Training Run
 To bypass Windows Jinja text template file-decoding conflicts and unlock high-speed downloading lanes via your Hugging Face access token, execute:
 ```powershell
-\(env:PYTHONUTF8=1\)env:HF_TOKEN="your_huggingface_read_token"
+set PYTHONUTF8=1  & set HF_TOKEN= your_huggingface_read_token
 python train.py
 ```
 
