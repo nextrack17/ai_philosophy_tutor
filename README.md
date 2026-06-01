@@ -17,6 +17,10 @@ ai_philosophy_tutor/
 ├── chat.py                     # Local interactive Socratic user interface loop
 ├── tutor_dataset_sharegpt.json # Fleshed-out 140-sample multi-turn curriculum file
 ├── .gitignore                  # Active filtering schema to block deployment uploads
+├── qwen_lora_results/          # trained LoRA adapter and related files
+│ ├── adapter_config.json
+│ ├── adapter_model.safetensors
+│
 └── README.md                   # System documentation profile (This file)
 ```
 
