@@ -1,0 +1,19 @@
+Lib/
+Include/
+Scripts/
+share/
+
+__pycache__/
+*.pyc
+
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+pyvenv.cfg
+
+qwen_lora_results/
+
+venv/
+ .venv/
