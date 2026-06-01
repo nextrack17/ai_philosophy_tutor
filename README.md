@@ -45,8 +45,8 @@ The model has been optimized with strict computational precision vectors to secu
 
 ### 1. Initialize and Activate Environment
 ```bash
-python -m venv qwen-env
-.\qwen-env\Scripts\Activate.ps1
+python -m venv ai_philosophy_tutor
+ai_philosophy_tutor\Scripts\activate
 ```
 
 ### 2. Clean-Install Core Hardware Dependencies
