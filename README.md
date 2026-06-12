@@ -155,3 +155,4 @@ Open a **secondary, separate terminal window** and run the Python script client 
 cd C:\Users\divya\ai_philosophy_tutor
 python test_api.py
 ```
+
