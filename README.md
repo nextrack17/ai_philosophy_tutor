@@ -113,8 +113,8 @@ The script formats a structured dictionary object, executes an official HTTP `PO
 ### 1. Initialize and Activate Environment
 ```bash
 cd C:\Users\divya\ai_philosophy_tutor
-python -m venv qwen-env
-.\qwen-env\Scripts\Activate.bat
+python -m venv ai_philosophy_tutor
+ai_philosophy_tutor\Scripts\activate
 ```
 
 ### 2. Install Pinned Stable Dependencies
