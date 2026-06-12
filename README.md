@@ -1,5 +1,5 @@
 # AI Philosophy & Cognitive Science Tutor Platform 🧠🤖 
-# Local End-to-End GenAI Ecosystem: QLoRA Fine-Tuned Socratic Tutor with Advanced Cross-Encoder RAG & FastAPI Deployment
+## Local End-to-End GenAI Ecosystem: QLoRA Fine-Tuned Socratic Tutor with Advanced Cross-Encoder RAG & FastAPI Deployment
 
 A production-grade, highly specialized Generative AI tutoring ecosystem fine-tuned locally using **QLoRA (4-bit Quantized Low-Rank Adaptation)** and integrated into an advanced **Conversational RAG (Retrieval-Augmented Generation)** pipeline. 
 
