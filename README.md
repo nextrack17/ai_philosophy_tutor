@@ -72,6 +72,21 @@ Standard vector searches can be noisy. The pipeline passes the top 8 raw FAISS c
 To support natural conversation, a **sliding-window memory buffer** tracks the last 3 back-and-forth exchanges. If a student asks a follow-up question using pronouns (e.g., *"Who created it?"*), the fine-tuned engine automatically reads the memory buffer and **rewrites the query** (e.g., *"Who created the Chinese Room Argument?"*) before running the FAISS search, keeping the conversation contextually locked.
 
 ---
+## Workflow
+
+User Query
+      ↓
+Memory Retrieval
+      ↓
+FAISS Search
+      ↓
+FlashRank Reranking
+      ↓
+Context Assembly
+      ↓
+Qwen + QLoRA
+      ↓
+Response
 
 ## 🌐 Phase 3: Production FastAPI Web Server Deployment (`app.py`)
 
