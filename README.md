@@ -73,20 +73,19 @@ To support natural conversation, a **sliding-window memory buffer** tracks the l
 
 ---
 ## Workflow
-
-User Query
-      ↓
-Memory Retrieval
-      ↓
-FAISS Search
-      ↓
-FlashRank Reranking
-      ↓
-Context Assembly
-      ↓
-Qwen + QLoRA
-      ↓
-Response
+           User Query
+               ↓
+        Memory Retrieval
+               ↓
+          FAISS Search
+               ↓
+       FlashRank Reranking
+               ↓
+         Context Assembly
+               ↓
+           Qwen + QLoRA
+               ↓
+            Response
 
 ## 🌐 Phase 3: Production FastAPI Web Server Deployment (`app.py`)
 
