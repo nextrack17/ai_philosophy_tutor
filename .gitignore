@@ -11,6 +11,8 @@ __pycache__/
 *.bin
 *.safetensors
 
+faiss_index/
+
 pyvenv.cfg
 
 qwen_lora_results/
