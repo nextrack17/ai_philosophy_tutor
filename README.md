@@ -47,7 +47,7 @@ Instead of only modifying basic query/value vectors, this pipeline injects adapt
 *   **Optimization State**: `paged_adamw_8bit` (Offloads heavy memory tracking parameters safely to System RAM).
 *   **Virtual Batching**: `per_device_train_batch_size=1` combined with `gradient_accumulation_steps=4` to simulate a stable batch size of 4 without VRAM spikes.
 *   **Precision Type**: Native, hardware-stabilized `BFloat16` (Brain Float) to eliminate mixed-precision math clashes.
-*   **Convergence Performance**: Curated a custom 140-sample conversational curriculum in ShareGPT format. By executing a 4-epoch SFT window using boundary policing and strict negative constraints, training loss successfully dropped to a **final step loss of ~1.07**, securing an elite **83.88% next-token predictability accuracy rate** and neutralizing cross-concept hallucinations.
+*   **Convergence Performance**: Curated a custom 140-sample conversational curriculum in ShareGPT format. By executing a 4-epoch SFT window using boundary policing and strict negative constraints, training loss successfully dropped to a **final step loss of ~1.07**, and neutralizing cross-concept hallucinations.
 
 ---
 
