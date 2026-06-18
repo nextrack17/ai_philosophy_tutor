@@ -21,9 +21,15 @@ ai_philosophy_tutor/
 ├── test_api.py                 # Pure Python REST API client test integration script
 ├── tutor_dataset_sharegpt.json # High-density 140-sample multi-turn curriculum dataset
 ├── knowledge_base/             # Ingestion directory for ungrounded PDF textbooks
+│   │
+│   ├── Computational conceptual history of scientific concepts.pdf
+│   ├── Externalism About the Mind.pdf
 │   ├── Functionalism.pdf
 │   ├── The Chinese Room Argument.pdf
-│   └── Externalism About the Mind.pdf
+│   ├── The Experience Machine.pdf
+│   ├── Theory of Mind.pdf
+│   └── World Models- A Comprehensive Survey of Architectures.pdf
+│ 
 ├── requirements.txt            # Pinned stable dependency tracking sheet
 └── README.md                   # Complete system documentation profile (This file)
 ```
